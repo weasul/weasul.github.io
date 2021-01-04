@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <basefont size="10">
-  <title>Workshop on Extracting Structured Knowledge from Scientific Publications</title>
+  <title>Workshop on Weakly Supervised Learning (WeaSuL)</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -35,7 +35,7 @@
 -->
 
 <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Structured knowledge from scientific publications</a>
+  <a class="navbar-brand" href="#">Weakly Supervised Learning</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -67,29 +67,40 @@
 </nav>
 
 <p>
-<h2>Workshop on extracting structured knowledge from scientific publications (ESSP)</h2>
+<h2>Workshop on Weakly Supervised Learning (WeaSuL)</h2>
   
-  <h3>June 6th, 2019, Minneapolis, USA</h3> 
-  <h4><a href="2019-NAACL-Minneapolis-Floorplans.pdf">(Nicollet D2 room, Main floor)</a></h4>
- 
+  <h3>2021, virtual</h3> 
   <br>
-  <h3>Collocated with <a href="https://naacl2019.org/">NAACL 2019</a> </h3>  
+  <h3>Collocated with <a href="https://iclr.cc/">ICLR 2021</a> </h3>  
 
   <p>
-Scientific knowledge is one of the greatest assets of humankind. 
-This knowledge is recorded and disseminated in scientific publications, 
-and the body of scientific literature is growing at an enormous rate. 
-Automatic methods of processing and cataloguing that information are necessary for assisting scientists to 
-navigate this vast amount of information, 
-and for facilitating automated reasoning, discovery and decision making on that data.
+Deep learning relies on massive training sets of labeled examples to learn from - often tens of thousands to millions to reach peak predictive performance. However, large amounts of training data are only available for very few standardized learning problems. Even small variations of the problem specification or changes in the data distribution would necessitate re-annotation of large amounts of data.
   </p>
   <p>
-The ESSP workshop focuses on processing scientific articles and creating structured repositories 
-such as knowledge graphs for finding new information and making scientific discoveries. 
-The aim of this workshop is to identify the necessary representations for facilitating automated reasoning 
-over scientific information, and to bring together experts in natural language processing and information extraction 
-with scientists from other domains (e.g. material sciences, biomedical research) 
-who want to leverage the vast amount of information stored in scientific publications. 
+However, domain knowledge can often be expressed by sets of prototypical descriptions: For example, vision experts can exploit meta information for image labeling, linguists can describe discourse phenomena by prototypical realization patterns, social scientists can specify events of interest by characteristic key phrases, and bio-medical researchers have databases of known interactions between drugs or proteins that can be used for heuristic labeling. These knowledge-based descriptions can be either used as rule-based predictors or as labeling functions for providing partial data annotations. The growing field of weak supervision provides methods for refining and generalizing such heuristic-based annotations in interaction with deep neural networks and large amounts of unannotated data.
+  </p>
+  <p>
+In this workshop, we want to advance theory, methods and tools for allowing experts to express prior coded knowledge for automatic data annotations that can be used to train arbitrary deep neural networks for prediction. The ICLR 2021 Workshop on Weak Supervision aims at advancing methods that help modern machine-learning methods to generalize from knowledge provided by experts, in interaction with observable (unlabeled) data.
+  </p>
+  <p>
+   In particular, we are interested in the following questions:
+<ul>
+<li> What tasks, not traditionally solved with weak supervision, can profit from knowledge-based labeling?</li>
+<li> What are the typical characteristics of a prediction task that make it amenable to weak supervision? </li>
+<li> How can weak supervision best be combined with neural networks and representation learning? </li>
+<li> What is the relationship of weak supervision to other machine learning paradigms, specifically,
+to semi-supervised learning,
+to active-learning,
+to label denoising and confidence estimation? </li>
+<li> Can approaches to weak supervision from different fields, e.g, relation extraction (natural language processing) and image classification (vision) be unified? </li>
+<li> What are good benchmarks for evaluating and comparing weak supervision approaches? </li>
+</ul>
+   </p>
+  <p>
+    Learning with weak supervision is both studied from a theoretical perspective as well as applied to a variety of tasks from areas like natural language processing and computer vision. This workshop aims at bringing together researchers from this wide range of fields to facilitate discussions across research areas that share the common ground of using weak supervision. A target of this workshop is also to inspire applications of weak supervision to new scenarios and to enable researchers to work on tasks that so far have been considered too low-resource.
+   </p>
+  <p>
+As weak supervision addresses one of the major issues of current machine learning techniques, the lack of labeled data, it has also started to obtain commercial interest. This workshop is an opportunity to bridge innovations from academia and the requirements of industry settings.
   </p>
   </p>
   
